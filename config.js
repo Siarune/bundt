@@ -17,7 +17,7 @@ const CONFIG = {
 	title: 'New Tab',
 
 	//Theme
-	theme: 'sakura',
+	theme: 'sweetpop',
 	imageBackground: false,
 	imageUrl: './assets/background.jpg',
 
