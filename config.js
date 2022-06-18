@@ -14,7 +14,8 @@ const CONFIG = {
 	name: 'Aidan',
 	openInNewTab: false,
 	twelveHourFormat: false,
-	
+	title: 'New Tab',
+
 	//Theme
 	theme: 'sakura',
 	imageBackground: false,
@@ -51,6 +52,8 @@ const CONFIG = {
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
+	// Autochange automatically based on location (sunrise/sunset). Openweathermap API key required.
+	changeThemeByLocation: false,
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
