@@ -11,14 +11,18 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: '',
-	imageBackground: false,
-	openInNewTab: true,
+	name: 'Aidan',
+	openInNewTab: false,
 	twelveHourFormat: false,
+	
+	//Theme
+	theme: 'sakura',
+	imageBackground: false,
 
+	//use {name} to substitute for your name
 	// Greetings
 	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon!',
+	greetingAfternoon: 'Good Afternoon!',
 	greetingEvening: 'Good evening!',
 	greetingNight: 'Go to Sleep!',
 
