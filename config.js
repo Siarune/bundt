@@ -18,6 +18,7 @@ const CONFIG = {
 	//Theme
 	theme: 'sakura',
 	imageBackground: false,
+	imageUrl: './assets/background.jpg',
 
 	//use {name} to substitute for your name
 	// Greetings
