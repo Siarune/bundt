@@ -11,13 +11,13 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Aidan',
-	openInNewTab: false,
-	twelveHourFormat: false,
+	name: 'John',
+	openInNewTab: true,
+	twelveHourFormat: true,
 	title: 'New Tab',
 
 	//Theme
-	theme: 'sweetpop',
+	theme: 'bento',
 	imageBackground: false,
 	imageUrl: './assets/background.jpg',
 
@@ -32,14 +32,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'd7e6152d9006fc67552789107e7efaf8', // Write here your API Key
+	weatherKey: 'YOURAPIKEYHERE', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '34.596720',
-	defaultLongitude: '-83.762880',
+	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: 'lat',
+	defaultLongitude: 'long',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -70,31 +70,31 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.google.com/mail/u/0/#inbox',
+			link: 'https://mail.protonmail.com/',
 		},
 		{
 			id: '3',
+			name: 'Todoist',
+			icon: 'trello',
+			link: 'https://todoist.com',
+		},
+		{
+			id: '4',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '4',
-			name: 'Youtube',
-			icon: 'youtube',
-			link: 'https://youtube.com/',
-		},
-		{
 			id: '5',
-			name: 'Crunchyroll',
-			icon: 'japanese-yen',
-			link: 'https://crunchyroll.com/',
+			name: 'Reddit',
+			icon: 'glasses',
+			link: 'https://reddit.com',
 		},
 		{
 			id: '6',
-			name: 'Messages',
-			icon: 'message-square',
-			link: 'https://messages.google.com/',
+			name: 'Odysee',
+			icon: 'youtube',
+			link: 'https://odysee.com/',
 		},
 	],
 
@@ -103,7 +103,7 @@ const CONFIG = {
 			id: '1',
 			name: 'Music',
 			icon: 'headphones',
-			link: 'https://open.spotify.com/',
+			link: 'https://open.spotify.com',
 		},
 		{
 			id: '2',
@@ -144,46 +144,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'coffee',
+			icon: 'music',
 			id: '1',
 			links: [
 				{
-					name: 'Vercel',
-					link: 'https://vercel.com/dashboard/',
+					name: 'Inspirational',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Planetscale',
-					link: 'https://app.planetscale.com/sia/',
+					name: 'Classic',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'CSS-Tricks',
-					link: 'https://css-tricks.com/',
+					name: 'Oldies',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'MDN Docs',
-					link: 'https://developer.mozilla.org/en-US/',
+					name: 'Rock',
+					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
 		},
 		{
-			icon: 'graduation-cap',
+			icon: 'coffee',
 			id: '2',
 			links: [
 				{
-					name: 'CLassroom',
-					link: 'https://classroom.google.com/h',
+					name: 'Linkedin',
+					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'USATestPrep',
-					link: 'https://students.usatestprep.com/home',
+					name: 'Dribbble',
+					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'AP Classroom',
-					link: 'https://apstudents.collegeboard.org/',
+					name: 'Trello',
+					link: 'https://www.trello.com',
 				},
 				{
-					name: 'Amatrol',
-					link: 'https://www.learnamatrol.com/common/messages.php',
+					name: 'Slack',
+					link: 'https://www.slack.com',
 				},
 			],
 		},
