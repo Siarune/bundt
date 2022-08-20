@@ -52,10 +52,18 @@
 			</div>
 		</div>
 
-		<form id="phpaction" class="" method="GET" action="https://www.duckduckgo.com/">
+		<!-- <form id="phpaction" class="" method="GET" action="https://www.duckduckgo.com/">
 			<input id="searchtxt" name="q" type="text" class="" placeholder="Search for anything on DuckDuckgo"
 				autocomplete="on" autofocus>
-		</form>
+		</form> -->
+
+		<form method="GET" action="https://searx.siarune.dev/" id="phpaction" class="">
+			<!-- search      -->	<input id="searchtxt" type="text" name="q" autocomplete="off" placeholder="Search for anything" />
+			<!-- categories -->		<input type="hidden" name="categories" value="general,social media" />
+			<!-- language -->		<input type="hidden" name="lang" value="all" />
+			<!-- locale -->			<input type="hidden" name="locale" value="en" />
+			<!-- date filter -->	<input type="hidden" name="time_range" value="month" />
+		  </form>
 
 		<div class="linksBlock" id="linksBlock">
 			<div class="linksBlockLeft" id="linksBlockLeft"></div>
