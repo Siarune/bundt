@@ -1,10 +1,10 @@
-#Sia's Startpage
+# Sia's Startpage
 ![](assets/img/newdemo.png)
 
 This is my personal twist on migueravila's [Bento](https://github.com/migueravila/Bento), themed to firefox [Sweet_Pop!](https://github.com/PROxZIMA/Sweet-Pop) and upgraded with a built-in searchbar suggested [here](https://github.com/migueravila/Bento/issues/14).
 <hr>
 
-##Commands
+##C ommands
 
 But of course I couldn't leave it there. As the snazzy vim user I am, it's a shame I can't use similar keybinds in my browser- until now. (Still under development and subject to changes)
 Currently you can switch between search engines, but I plan to add a theme toggle, layout toggle, and bookmark access.
@@ -25,7 +25,7 @@ A => search Amazon
 
 <hr>
 
-##Before you start
+## Before you start
 You can use the [plain one](https://github.com/Siarune/siastartpage/tree/stable), which is only feature-updated, or my [personalized version](https://github.com/Siarune/siastartpage/tree/master). 
 I would recommend forking and hosting a branch of your one so you can change the configs to your liking, but you do you.
 For more detailed documentation, see the original project's readme.
