@@ -29,11 +29,11 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'd7e6152d9006fc67552789107e7efaf8', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White', 'Moe'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -144,41 +144,19 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'coffee',
+			icon: 'youtube',
 			id: '1',
 			links: [
 				{
-					name: 'Vercel',
-					link: 'https://vercel.com/dashboard/',
-				},
-				{
-					name: 'Planetscale',
-					link: 'https://app.planetscale.com/sia/',
-				},
-				{
-					name: 'CSS-Tricks',
-					link: 'https://css-tricks.com/',
-				},
-				{
-					name: 'MDN Docs',
-					link: 'https://developer.mozilla.org/en-US/',
-				},
-			],
-		},
-		{
-			icon: 'graduation-cap',
-			id: '2',
-			links: [
-				{
-					name: 'CLassroom',
+					name: 'Youtube',
 					link: 'https://classroom.google.com/h',
 				},
 				{
-					name: 'USATestPrep',
+					name: 'Crunchyroll',
 					link: 'https://students.usatestprep.com/home',
 				},
 				{
-					name: 'AP Classroom',
+					name: 'Kaasi',
 					link: 'https://apstudents.collegeboard.org/',
 				},
 				{
@@ -187,51 +165,73 @@ const CONFIG = {
 				},
 			],
 		},
+		{
+			icon: 'coffee',
+			id: '2',
+			links: [
+				{
+					name: 'Sourcehut',
+					link: 'https://sr.ht/',
+				},
+				{
+					name: 'Github',
+					link: 'https://github.com/',
+				},
+				{
+					name: 'Vercel',
+					link: 'https://vercel.com/dashboard/',
+				},
+				{
+					name: 'Supabase',
+					link: 'https://app.supabase.com/',
+				},
+			],
+		},
 	],
 
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'inbox',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
+					name: 'Gmail',
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Reddit',
+					name: 'Calendar',
 					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'IG',
+					link: 'https://www.instagram.com/direct/t/340282366841710300949128205634464009654/',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Wikipedia',
+					link: 'https://www.widipedia.org/',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'apple',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Google Classroom',
+					link: 'https://classroom.google.com/h',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'AP Classroom',
+					link: 'https://apstudents.collegeboard.org/',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Quizlet',
+					link: 'https://quizlet.com/latest',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Millerwelds',
+					link: 'https://www.millerwelds.com/resources/welding-guides/presentations-and-quizzes',
 				},
 			],
 		},
