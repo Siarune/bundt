@@ -4,7 +4,7 @@
 This is my personal twist on migueravila's [Bento](https://github.com/migueravila/Bento), themed to firefox [Sweet_Pop!](https://github.com/PROxZIMA/Sweet-Pop) and upgraded with a built-in searchbar suggested [here](https://github.com/migueravila/Bento/issues/14).
 <hr>
 
-##C ommands
+## Commands
 
 But of course I couldn't leave it there. As the snazzy vim user I am, it's a shame I can't use similar keybinds in my browser- until now. (Still under development and subject to changes)
 Currently you can switch between search engines, but I plan to add a theme toggle, layout toggle, and bookmark access.
