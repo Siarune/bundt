@@ -149,19 +149,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Youtube',
-					link: 'https://classroom.google.com/h',
+					link: 'https://www.youtube.com/',
 				},
 				{
 					name: 'Crunchyroll',
-					link: 'https://students.usatestprep.com/home',
+					link: 'https://beta.crunchyroll.com/',
 				},
 				{
 					name: 'Kaasi',
-					link: 'https://apstudents.collegeboard.org/',
+					link: 'https://kaa.si/',
 				},
 				{
-					name: 'Amatrol',
-					link: 'https://www.learnamatrol.com/common/messages.php',
+					name: 'Messages',
+					link: 'https://messages.google.com/web/',
 				},
 			],
 		},
@@ -197,15 +197,15 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Gmail',
-					link: 'https://www.spotify.com',
+					link: 'https://mail.google.com/',
 				},
 				{
 					name: 'Calendar',
-					link: 'https://www.reddit.com',
+					link: 'https://calendar.google.com/',
 				},
 				{
-					name: 'IG',
-					link: 'https://www.instagram.com/direct/t/340282366841710300949128205634464009654/',
+					name: 'Ig',
+					link: 'https://www.instagram.com/direct/',
 				},
 				{
 					name: 'Wikipedia',
@@ -227,7 +227,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Quizlet',
-					link: 'https://quizlet.com/latest',
+					link: 'https://quizlet.com/',
 				},
 				{
 					name: 'Millerwelds',
